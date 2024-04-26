@@ -1,6 +1,8 @@
 celery==5.2.3
-Flask==2.0.3
+Flask==2.2.5
 Flask-WTF==1.0.0
 flower==1.0.0
 pytest==7.0.1
-redis==4.1.4
+redis==4.3.6
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
